@@ -8,4 +8,5 @@ Time results:
 
 How to use:
 (Windows): gcc -o hw6.c && hw6.exe
+
 (Mac/Linux): gcc - o hw6.c && ./hw6
