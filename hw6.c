@@ -166,8 +166,8 @@ int main() {
 	gettimeofday(&tv2, NULL);
 	checkSorted(lst);
 	//printLst(lst);
-
-	printf ("Sorted %d elements in %f seconds\n\n", n,
+    printf("Not printing list! There are too many numbers. Uncomment printLst() function on line above to see all numbers sorted.\n");
+	printf("Sorted %d elements in %f seconds\n\n", n,
          (double) (tv2.tv_usec - tv1.tv_usec) / 1000000 +
          (double) (tv2.tv_sec - tv1.tv_sec));
 
