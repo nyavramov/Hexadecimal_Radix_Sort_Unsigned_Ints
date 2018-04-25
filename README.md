@@ -5,3 +5,7 @@ Comparisons with selection sort (implemented by me) and mergesort (not implement
 
 Time results:
 ![](https://i.imgur.com/DfDAQNQ.png)
+
+How to use:
+(Windows): gcc -o hw6.c && hw6.exe
+(Mac/Linux): gcc - o hw6.c && ./hw6
